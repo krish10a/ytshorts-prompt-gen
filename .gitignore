@@ -1,0 +1,41 @@
+# Environment & Secrets
+.env
+.env.local
+client_secret.json
+token.json
+*.key
+*.pem
+
+# Separate microservice (hosted in its own repo https://github.com/krish10a/ffmpeg-server)
+ffmpeg_server/
+antig.json
+
+# Video Media Files
+*.mp4
+*.mov
+*.mkv
+*.avi
+vid gen/shorts/*
+!vid gen/shorts/.gitkeep
+vid gen/uploaded/*
+!vid gen/uploaded/.gitkeep
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Runtime Logs & Output files
+vidgen_log.html
+*.log
+*.tmp
+
+# Operating System & IDE
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
